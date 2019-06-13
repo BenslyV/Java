@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="128" started-at="2019-06-12T16:38:19Z" finished-at="2019-06-12T16:38:19Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="128" started-at="2019-06-12T16:38:19Z" finished-at="2019-06-12T16:38:19Z">
+      <class name="Maven.Maven.MavenTestNG">
+        <test-method status="PASS" signature="test()[pri:0, instance:Maven.Maven.MavenTestNG@42b0a6]" name="test" duration-ms="53" started-at="2019-06-12T22:08:19Z" finished-at="2019-06-12T22:08:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+      </class> <!-- Maven.Maven.MavenTestNG -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
