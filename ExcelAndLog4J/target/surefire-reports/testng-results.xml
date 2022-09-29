@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="785" started-at="2020-03-28T09:23:44 IST" finished-at="2020-03-28T09:23:45 IST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="785" started-at="2020-03-28T09:23:44 IST" finished-at="2020-03-28T09:23:45 IST">
+      <class name="ecom.bens.Excel.ExcelData">
+        <test-method status="PASS" signature="excelmethod()[pri:0, instance:ecom.bens.Excel.ExcelData@4bec1f0c]" name="excelmethod" duration-ms="751" started-at="2020-03-28T09:23:44 IST" finished-at="2020-03-28T09:23:45 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- excelmethod -->
+      </class> <!-- ecom.bens.Excel.ExcelData -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

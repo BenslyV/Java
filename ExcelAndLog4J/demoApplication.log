@@ -1,0 +1,42 @@
+[main] INFO  com.bens.Log4j.Log2  - info print
+[main] TRACE com.bens.Log4j.Log2  - trace print
+[main] ERROR com.bens.Log4j.Log2  - error print
+[main] FATAL com.bens.Log4j.Log2  - fatal print
+[main] DEBUG com.bens.Log4j.Log2  - Deubg Print
+[main] INFO  com.bens.Log4j.Log2  - infomsg2
+[main] WARN  com.bens.Log4j.Log2  - print warn
+[main] INFO  com.bens.Log4j.Log2  - info print
+[main] TRACE com.bens.Log4j.Log2  - trace print
+[main] ERROR com.bens.Log4j.Log2  - error print
+[main] FATAL com.bens.Log4j.Log2  - fatal print
+[main] DEBUG com.bens.Log4j.Log2  - Deubg Print
+[main] INFO  com.bens.Log4j.Log2  - infomsg2
+[main] WARN  com.bens.Log4j.Log2  - print warn
+[main] INFO  com.bens.Log4j.Log2  - info print
+[main] TRACE com.bens.Log4j.Log2  - trace print
+[main] ERROR com.bens.Log4j.Log2  - error print
+[main] FATAL com.bens.Log4j.Log2  - fatal print
+[main] DEBUG com.bens.Log4j.Log2  - Deubg Print
+[main] INFO  com.bens.Log4j.Log2  - infomsg2
+[main] WARN  com.bens.Log4j.Log2  - print warn
+[main] INFO  com.bens.Log4j.Log2  - info print
+[main] TRACE com.bens.Log4j.Log2  - trace print
+[main] ERROR com.bens.Log4j.Log2  - error print
+[main] FATAL com.bens.Log4j.Log2  - fatal print
+[main] DEBUG com.bens.Log4j.Log2  - Deubg Print
+[main] INFO  com.bens.Log4j.Log2  - infomsg2
+[main] WARN  com.bens.Log4j.Log2  - print warn
+[main] INFO  com.bens.Log4j.Log2  - info print
+[main] TRACE com.bens.Log4j.Log2  - trace print
+[main] ERROR com.bens.Log4j.Log2  - error print
+[main] FATAL com.bens.Log4j.Log2  - fatal print
+[main] DEBUG com.bens.Log4j.Log2  - Deubg Print
+[main] INFO  com.bens.Log4j.Log2  - infomsg2
+[main] WARN  com.bens.Log4j.Log2  - print warn
+[main] INFO  com.bens.Log4j.Log2  - info print
+[main] TRACE com.bens.Log4j.Log2  - trace print
+[main] ERROR com.bens.Log4j.Log2  - error print
+[main] FATAL com.bens.Log4j.Log2  - fatal print
+[main] DEBUG com.bens.Log4j.Log2  - Deubg Print
+[main] INFO  com.bens.Log4j.Log2  - infomsg2
+[main] WARN  com.bens.Log4j.Log2  - print warn
