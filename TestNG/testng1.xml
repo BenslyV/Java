@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TestSuiteBensly" thread-count="5" parallel="tests">
+	<listeners>
+		<listener class-name="com.bens.testng.TestNGListeners"></listener>
+	</listeners>
+	<test name="RegressionTest" parallel="classes" thread-count="5">
+		<classes>
+			<class name="com.bens.testng.NewTest">
+				<methods>
+					<include name="login1"></include>
+				</methods>
+			</class>
+			<class name="com.bens.testng.Normaltest" />
+		</classes>
+	</test> <!-- RegressionTest -->
+
+	<test name="Carloan">
+		<classes>
+			<class name="com.bens.testng.CarLoan">
+				<methods>
+					<exclude name="carloan3" />
+					<exclude name="carloan2" />
+				</methods>
+			</class>
+
+		</classes>
+	</test> <!-- Carloan -->
+
+</suite> <!-- TestSuiteBensly -->

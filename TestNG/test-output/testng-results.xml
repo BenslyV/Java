@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="2" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="50" started-at="2020-05-13T03:17:23Z" finished-at="2020-05-13T03:17:23Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="50" started-at="2020-05-13T03:17:23Z" finished-at="2020-05-13T03:17:23Z">
+      <class name="com.bens.testng.Parameter">
+        <test-method status="FAIL" signature="para1(java.lang.String, int, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.bens.testng.Parameter@735b478]" name="para1" duration-ms="0" started-at="2020-05-13T08:47:23Z" finished-at="2020-05-13T08:47:23Z">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'name' is required by @Test on method para1 but has not been marked @Optional or defined
+in C:\Users\bensl\AppData\Local\Temp\testng-eclipse-1513913228\testng-customsuite.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'name' is required by @Test on method para1 but has not been marked @Optional or defined
+in C:\Users\bensl\AppData\Local\Temp\testng-eclipse-1513913228\testng-customsuite.xml
+	at org.testng.internal.Parameters.createParameters(Parameters.java:199)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:443)
+	at org.testng.internal.Parameters.handleParameters(Parameters.java:569)
+	at org.testng.internal.Invoker.handleParameters(Invoker.java:1308)
+	at org.testng.internal.Invoker.createParameters(Invoker.java:1036)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1126)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- para1 -->
+        <test-method status="PASS" signature="para2()[pri:0, instance:com.bens.testng.Parameter@735b478]" name="para2" duration-ms="9" started-at="2020-05-13T08:47:23Z" finished-at="2020-05-13T08:47:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- para2 -->
+      </class> <!-- com.bens.testng.Parameter -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

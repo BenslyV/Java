@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TestSuiteBensly">
+	<listeners>
+		<listener class-name="com.bens.testng.TestNGListeners"></listener>
+	</listeners>
+	<test thread-count="5" name="RegressionTest">
+		<packages>
+			<package name="com.bens.testng" />
+		</packages>
+	</test> <!-- RegressionTest -->
+</suite> <!-- TestSuiteBensly -->

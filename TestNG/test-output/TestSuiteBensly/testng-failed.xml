@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [TestSuiteBensly]">
+  <listeners>
+    <listener class-name="com.bens.testng.TestNGListeners"/>
+  </listeners>
+  <test name="RegressionTest(failed)">
+    <classes>
+      <class name="com.bens.testng.Parameter">
+        <methods>
+          <include name="para1"/>
+        </methods>
+      </class> <!-- com.bens.testng.Parameter -->
+    </classes>
+  </test> <!-- RegressionTest(failed) -->
+</suite> <!-- Failed suite [TestSuiteBensly] -->

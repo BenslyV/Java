@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="Test">
+	<parameter name="name" value="Firefox"/>
+	<parameter name="age" value="testuser"/>
+	<parameter name="url" value="testpassword"/>
+	<parameter name="testname" value="testuser"/>
+	<parameter name="carname" value="testpassword"/>
+    <classes>
+      <class name="com.bens.testng.Parameter"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
