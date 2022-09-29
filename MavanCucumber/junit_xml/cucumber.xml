@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="0">
+<testcase classname="test 1 for Raju Bhai" name="Scenerio 1 for Raju Bhai" time="0">
+<system-out><![CDATA[Given given Test for Raju Bhai..............................................skipped
+When when test for Raju Bhai................................................skipped
+Then then test for Raju Bhai................................................skipped
+]]></system-out>
+</testcase>
+</testsuite>
